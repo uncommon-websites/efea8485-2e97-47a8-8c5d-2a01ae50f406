@@ -6,25 +6,30 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CenteredTextOnlyHero
+	title="Technology that feels human"
+	subtitle="We map emotional intelligence to help teams build systems that understand, adapt, and connect—more like people do."
+	imageSrc="/generated/image-a-group-of-diverse-people-in-an-open-off.webp"
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by leading AI research companies"
+	logoUrls={[
+		'https://logo.clearbit.com/anthropic.com',
+		'https://logo.clearbit.com/deepmind.com',
+		'https://logo.clearbit.com/huggingface.co',
+		'https://logo.clearbit.com/cohere.ai'
+	]}
+/>
 
 <Summary
-	generating
 	title="What we do"
 	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
 			name: "Jane Smith",
