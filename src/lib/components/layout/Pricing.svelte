@@ -28,9 +28,7 @@ Please update features according to the company's product offering. Do not remov
 	// Components
 	import Button from "$lib/components/ui/Button.svelte";
 	import SectionHeader from "./SectionHeader.svelte";
-	// Icons
-	import IconCheck from "~icons/lucide/check";
-	import IconX from "~icons/lucide/x";
+	// Icons - inline SVG components since unplugin-icons is not working
 	import NumberFlow from "@number-flow/svelte";
 	import LogoScroller from "./LogoScroller.svelte";
 
@@ -245,7 +243,7 @@ Please update features according to the company's product offering. Do not remov
 						{#each tier.features as feature}
 							<li class="flex items-center gap-2">
 								<span class="text-primary-600 dark:text-primary-400 size-5 flex-shrink-0 [&>svg]:size-5">
-									<IconCheck class="size-5" />
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-5"><path d="m9 12 2 2 4-4"/></svg>
 								</span>
 								<span class="text-body text-emphasis-medium dark:text-gray-300">{feature}</span>
 							</li>
