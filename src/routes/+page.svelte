@@ -7,6 +7,7 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
+	import UseCases from "$lib/components/layout/UseCases.svelte";
 </script>
 
 <CenteredTextOnlyHero
@@ -26,62 +27,122 @@
 
 <Summary
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Kokoro Research develops human-centered AI by mapping emotional intelligence to bridge the gap between human values and technological advancement. We help AI researchers build systems that understand emotional context and align with human decision-making patterns."
 />
 
 <Testimonials
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Marta Liden",
+			position: "Head of AI Safety",
+			company: "Novira Labs",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
+				"Kokoro's emotional intelligence mapping cut our model validation time by 60%. We now deploy human-aligned AI systems 3x faster than before, saving months of iteration cycles.",
 			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-professional-woman-ai-researcher-is-wo.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Nael Kumari",
+			position: "Research Director",
+			company: "Cedral AI",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
+				"Their human values framework eliminated our biggest regulatory risk. We avoided a potential $2M compliance issue by catching alignment problems early in development.",
 			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-professional-man-an-ai-research-direct.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Zara Thorne",
+			position: "VP of AI Product",
+			company: "Apex Technologies",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
+				"Kokoro's emotional intelligence data reduced our AI training costs by 45%. Instead of rebuilding models from scratch, we enhanced existing ones with their proven datasets.",
 			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-professional-woman-technology-leader-i.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Emotional intelligence, engineered"
+	subtitle="The missing layer in AI safety—human values and emotions mapped for responsible AI development"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Deep emotional intelligence mapping",
+			description: "Proprietary datasets built on validated psychological frameworks that give AI systems the missing context to understand human nuance, emotions, and intent."
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Human-aligned AI development",
+			description: "Emotionally aware decision trees and value alignment scoring designed to integrate directly into AI training and inference cycles for safer model behavior."
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Proven measurable outcomes",
+			description: "Real-world tested with 40% improvement in human-AI alignment metrics, backed by peer-reviewed case studies published at top AI conferences."
+		},
+		{
+			title: "Purpose-built for AI researchers",
+			description: "Plug-and-play emotional modeling APIs and value alignment tools designed specifically for AI safety researchers at tech companies and research institutions."
+		},
+		{
+			title: "Enterprise-ready platform",
+			description: "End-to-end pilot programs with measurable human satisfaction gains, trusted by teams backed by leading AI-focused venture capital firms."
+		},
+		{
+			title: "Responsible AI at scale",
+			description: "Bridge the gap between human values and technological advancement with tools that ensure every AI decision is truly human-centered and ethically sound."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+
+<UseCases
+	title="Use Cases"
+	subtitle="Real-world applications for AI emotional intelligence"
+	useCases={[
+		{
+			title: "Accelerate AI safety research",
+			description: "When building human-aligned AI systems, researchers need validated emotional intelligence data. Kokoro's frameworks reduce model validation time by 60% and prevent costly alignment failures.",
+			image: "/generated/image-a-group-of-researchers-dressed-in-casual.webp",
+			link: {
+				href: "/use-cases/ai-safety-research",
+				label: "Learn more"
+			}
+		},
+		{
+			title: "Improve human-AI interaction",
+			description: "AI systems that understand emotional context create better user experiences. Kokoro's emotional mapping improves human-AI interaction metrics by 40% in real-world testing.",
+			image: "/generated/image-in-a-contemporary-laboratory-setting-peo.webp",
+			link: {
+				href: "/use-cases/human-ai-interaction",
+				label: "Learn more"
+			}
+		},
+		{
+			title: "Scale responsible AI development",
+			description: "Enterprise teams need to ensure AI systems align with human values at scale. Kokoro's platform prevents regulatory risks and enables ethical AI deployment across organizations.",
+			image: "/generated/image-a-diverse-team-of-professionals-is-seate.webp",
+			link: {
+				href: "/use-cases/responsible-ai-development",
+				label: "Learn more"
+			}
+		}
+	]}
+/>
+
+<AboutTeaser />
+<CallToAction
+	title="Ready to build human-aligned AI?"
+	subtitle="Start your pilot program today"
+	description="Join leading AI research teams who trust Kokoro Research to map emotional intelligence and build truly human-centered AI systems. See measurable improvements in your next release cycle."
+	imageSrc="/generated/image-a-cheerful-researcher-sitting-at-a-desk-.webp"
+	callsToAction={[
+		{
+			href: "/contact",
+			label: "Start pilot program",
+			variant: "primary"
+		},
+		{
+			href: "/research",
+			label: "View our research",
+			variant: "secondary"
+		}
+	]}
+/>

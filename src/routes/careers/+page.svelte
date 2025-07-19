@@ -24,18 +24,18 @@
 
 	const benefits = [
 		{
-			title: "Flexible Work",
-			description: "Remote-first with flexible hours that respect work-life balance.",
+			title: "Pioneer AI Safety Research",
+			description: "Lead groundbreaking research in emotional intelligence mapping that shapes the future of human-aligned AI systems.",
 			icon: IconBriefcase
 		},
 		{
-			title: "Growth Opportunities",
-			description: "Continuous learning with mentorship and education stipends.",
+			title: "Accelerated Career Growth",
+			description: "Fast-track your expertise in the emerging $240B AI market with mentorship from Stanford HAI alumni and access to top-tier research conferences.",
 			icon: IconUsers
 		},
 		{
-			title: "Comprehensive Benefits",
-			description: "Health coverage, retirement plans, and generous paid time off.",
+			title: "Impact-Driven Mission",
+			description: "Bridge the gap between human values and technology, directly influencing how AI systems understand and respond to human emotions.",
 			icon: IconHeart
 		}
 	];
@@ -122,68 +122,65 @@
 
 	const employeeTestimonials = [
 		{
-			name: "Michael Chen",
-			position: "Senior Developer",
+			name: "Dr. Ken Tanaka",
+			position: "Senior AI Research Scientist",
+			company: "Research Team",
+			quote:
+				"At Kokoro Research, I'm not just building AI systems — I'm helping shape how technology understands human emotions. The interdisciplinary collaboration here between psychologists, ethicists, and engineers creates breakthrough research that's both cutting-edge and deeply meaningful.",
+			image: "/generated/image-a-professional-headshot-of-an-asian-male.webp"
+		},
+		{
+			name: "Dr. Sofia Rodriguez",
+			position: "Machine Learning Engineer",
 			company: "Engineering Team",
 			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"What drew me to Kokoro Research was the mission to bridge human values with AI development. Every day, I work on projects that directly impact how future AI systems will understand and respond to human needs. The growth opportunities are incredible — from publishing at top-tier conferences to collaborating with Stanford HAI alumni.",
+			image: "/generated/image-a-professional-headshot-of-a-latina-fema.webp"
 		},
 		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
+			name: "Marcus Thompson",
+			position: "Product Manager",
+			company: "Product Team",
 			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"The culture here is unlike anywhere else I've worked. We're tackling one of the most important challenges of our time — ensuring AI systems are aligned with human values. Leadership genuinely invests in your professional development, and the work environment encourages both innovation and thoughtful ethical consideration.",
+			image: "/generated/image-a-professional-headshot-of-a-black-male-.webp"
 		}
 	];
 
 	const processSteps = [
 		{
 			step: 1,
-			title: "Apply",
+			title: "Apply with Research Focus",
 			description:
-				"Submit your application through our careers portal with your resume and portfolio."
+				"Submit your application highlighting your experience in AI research, emotional intelligence, or human-computer interaction. Include relevant publications or research projects."
 		},
 		{
 			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
+			title: "Technical & Values Assessment",
+			description: "Engage in deep discussions about AI safety, human-centered design principles, and your vision for responsible AI development with our research team."
 		},
 		{
 			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
+			title: "Join the Mission",
+			description: "Become part of our pioneering team developing the next generation of emotionally intelligent AI systems that bridge human values and technological advancement."
 		}
 	];
 
 	const values = [
 		{
 			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
+			title: "Human-Centered Innovation",
+			description: "Every AI system we develop prioritizes human values and emotional intelligence, ensuring technology serves humanity."
 		},
 		{
 			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
+			title: "Interdisciplinary Excellence",
+			description: "We unite AI researchers, psychologists, and ethicists to create breakthrough solutions in responsible AI development."
 		},
 		{
 			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
+			title: "Transformative Impact",
+			description: "Our research shapes how AI systems understand human emotions, creating safer and more aligned artificial intelligence for the world."
 		}
 	];
 </script>
@@ -191,14 +188,13 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	generating
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
-	imageSrc="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+	title="Shape the future of human-centered AI"
+	subtitle="Join our passionate team of researchers and engineers as we bridge the gap between human values and technological advancement. Together, we're building AI that truly understands and serves humanity."
+	imageSrc="/generated/image-a-diverse-group-of-researchers-in-a-mode.webp"
 />
 
 <!-- Why Join Us Section -->
-<section class={SECTION_BASE_CLASSES} generating>
+<section class={SECTION_BASE_CLASSES}>
 	<SectionHeader title="Why join us?" subtitle="Build your career while making an impact" />
 
 	<div class="mt-16 grid gap-4 md:grid-cols-3">
@@ -209,12 +205,12 @@
 </section>
 
 <!-- Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
-<Testimonials testimonials={employeeTestimonials} generating />
+<Testimonials testimonials={employeeTestimonials} />
 
 <!-- Application Process -->
-<section class={SECTION_BASE_CLASSES} generating>
+<section class={SECTION_BASE_CLASSES}>
 	<div class="mx-auto">
 		<h2 class="text-title1 mb-16">Our application process</h2>
 
@@ -232,7 +228,7 @@
 	</div>
 </section>
 <!-- Current Openings Section -->
-<section class={GRADIENT_BG_CLASSES} generating>
+<section class={GRADIENT_BG_CLASSES}>
 	<div class="section-px section-py container mx-auto grid w-full items-start lg:grid-cols-2">
 		<SectionHeader title="Current openings" subtitle="Find your perfect role" />
 

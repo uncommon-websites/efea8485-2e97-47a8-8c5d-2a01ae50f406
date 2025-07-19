@@ -28,6 +28,7 @@ Please update features according to the company's product offering. Do not remov
 	// Components
 	import Button from "$lib/components/ui/Button.svelte";
 	import SectionHeader from "./SectionHeader.svelte";
+	// Icons
 	import IconCheck from "~icons/lucide/check";
 	import IconX from "~icons/lucide/x";
 	import NumberFlow from "@number-flow/svelte";
@@ -35,116 +36,119 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Transparent pricing for human-centered AI",
+		subtitle = "From individual researchers to enterprise AI teams, we support your journey toward human-aligned artificial intelligence",
+		tierNames = ["Researcher", "Team", "Enterprise"],
 		features = [
 			{
-				name: "Projects",
+				name: "Emotional intelligence datasets",
 				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
+					Researcher: "Core dataset",
+					Team: "Extended datasets",
+					Enterprise: "Complete library"
 				}
 			},
 			{
-				name: "Team members",
+				name: "AI alignment tools",
 				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
+					Researcher: "Basic toolkit",
+					Team: "Advanced tools",
+					Enterprise: "Full enterprise suite"
 				}
 			},
 			{
-				name: "Storage",
+				name: "Human values mapping",
 				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
+					Researcher: "10K mappings/month",
+					Team: "100K mappings/month",
 					Enterprise: "Unlimited"
 				}
 			},
 			{
 				name: "API access",
 				tiers: {
-					Starter: false,
-					Pro: true,
+					Researcher: "Basic API",
+					Team: "Full API",
+					Enterprise: "Enterprise API"
+				}
+			},
+			{
+				name: "Research collaboration platform",
+				tiers: {
+					Researcher: false,
+					Team: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Custom domains",
+				name: "Custom model training",
 				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Analytics",
-				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
+					Researcher: false,
+					Team: "Pre-built models",
+					Enterprise: "Custom training"
 				}
 			},
 			{
 				name: "Support response time",
 				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
+					Researcher: "48 hours",
+					Team: "12 hours",
+					Enterprise: "2 hours"
 				}
 			},
 			{
-				name: "Dedicated account manager",
+				name: "Dedicated research advisor",
 				tiers: {
-					Starter: false,
-					Pro: false,
+					Researcher: false,
+					Team: false,
 					Enterprise: true
 				}
 			},
 			{
-				name: "SLA",
+				name: "Data sovereignty & security",
 				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
+					Researcher: "Standard",
+					Team: "Enhanced",
+					Enterprise: "Enterprise-grade"
 				}
 			}
 		],
 		tiers = [
 			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
+				name: "Researcher",
+				monthlyPrice: 199,
+				yearlyPrice: 159, // 20% savings
+				description: "Ideal for individual AI researchers and graduate students",
 				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
+					"Core emotional intelligence dataset",
+					"Basic AI alignment toolkit",
+					"10K human values mappings per month",
+					"Standard API access",
+					"Research documentation & guides",
+					"Community forum access"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
+					label: "Start researching",
+					href: "/signup?plan=researcher"
 				}
 			},
 			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
+				name: "Team",
+				monthlyPrice: 799,
+				yearlyPrice: 639, // 20% savings
+				description: "Perfect for AI research teams and small labs",
 				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
+					"Extended emotional intelligence datasets",
+					"Advanced AI alignment tools",
+					"100K human values mappings per month",
+					"Full API with webhooks",
+					"Team collaboration platform",
+					"Pre-built alignment models",
+					"Priority support (12hr response)"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
+					label: "Start team research",
+					href: "/signup?plan=team"
 				},
 				highlight: true
 			},
@@ -152,18 +156,19 @@ Please update features according to the company's product offering. Do not remov
 				name: "Enterprise",
 				monthlyPrice: null,
 				yearlyPrice: null,
-				description: "For large organizations with specific needs",
+				description: "For large AI companies building human-aligned systems at scale",
 				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
+					"Complete emotional intelligence library",
+					"Full enterprise AI alignment suite",
+					"Unlimited human values mappings",
+					"Enterprise API with SLA",
+					"Custom model training pipeline",
+					"Dedicated research advisor",
+					"White-glove onboarding",
+					"Enterprise security & compliance"
 				],
 				cta: {
-					label: "Contact sales",
+					label: "Contact our research team",
 					href: "/contact"
 				}
 			}
@@ -239,7 +244,9 @@ Please update features according to the company's product offering. Do not remov
 					<ul class="space-y-3">
 						{#each tier.features as feature}
 							<li class="flex items-center gap-2">
-								<IconCheck class="text-primary-600 dark:text-primary-400 size-5 flex-shrink-0" />
+								<span class="text-primary-600 dark:text-primary-400 size-5 flex-shrink-0 [&>svg]:size-5">
+									<IconCheck class="size-5" />
+								</span>
 								<span class="text-body text-emphasis-medium dark:text-gray-300">{feature}</span>
 							</li>
 						{/each}

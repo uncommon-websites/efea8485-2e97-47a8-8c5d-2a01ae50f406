@@ -4,8 +4,9 @@
 
 	// Components
 	import Button from "$lib/components/ui/Button.svelte";
-	import IconMenu from "~icons/lucide/menu";
-	import IconChevronRight from "~icons/lucide/chevron-right";
+	// Icons - using SVG directly since icon system is not configured
+	const IconMenu = () => `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>`;
+	const IconChevronRight = () => `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>`;
 
 	// Utils
 	import { cta, navigation } from "$lib/navigation";
@@ -125,11 +126,13 @@
 		size="lg"
 		variant="ghost"
 		hideLabel
-		suffix={IconMenu}
 		iconOnly
-		class="z-50 max-h-full"
-		onclick={() => (isMenuOpen = !isMenuOpen)}>Menu</Button
+		class="z-50 max-h-full [&>svg]:size-5"
+		onclick={() => (isMenuOpen = !isMenuOpen)}
 	>
+		{@html IconMenu()}
+		Menu
+	</Button>
 </div>
 
 {#snippet linkOrGroup(item: NavItem, index: number)}
@@ -138,7 +141,9 @@
 			<summary
 				class="section-px nav-item text-title2 text-foreground hover:bg-muted flex cursor-pointer list-none items-center justify-between transition-all select-none group-open:font-medium"
 				>{item.label}
-				<IconChevronRight class="transition duration-300 ease-out group-open:rotate-90" /></summary
+				<span class="transition duration-300 ease-out group-open:rotate-90 [&>svg]:size-4" aria-hidden="true">
+					{@html IconChevronRight()}
+				</span></summary
 			>
 
 			<ul

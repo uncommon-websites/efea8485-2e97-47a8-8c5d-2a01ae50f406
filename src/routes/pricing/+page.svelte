@@ -17,33 +17,47 @@
 <Testimonials
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Elise Tanaka",
+			position: "Director of Safety Research",
+			company: "LatentScale",
 			quote:
-				"This solution transformed our workflow and increased productivity by 35% in just two months.",
-			image:
-				"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"Adding Kokoro's emotional intelligence layer to our alignment stack helped us resolve ethical ambiguity 3x faster in our internal red teaming. The ROI was immediate and measurable.",
+			image: "/generated/image-a-professional-headshot-of-an-asian-woma.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Dr. Armin Vogel",
+			position: "Cognitive Scientist",
+			company: "Oxford Values Lab",
 			quote:
-				"The implementation was seamless and the support team was exceptional throughout the process.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"The emotional values dataset from Kokoro was more predictive of human judgment than any behavioral metric we'd used prior. Implementation took just two weeks and delivered results that would have taken our team months to achieve.",
+			image: "/generated/image-a-professional-headshot-of-a-german-man-.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Nia Brook",
+			position: "Lead ML Engineer",
+			company: "Parallax Labs",
 			quote:
-				"We've tried multiple solutions, but this is the only one that perfectly addressed all our requirements.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&estimonial-3.jpg"
+				"We saw a 25% increase in user trust ratings after fine-tuning with Kokoro's alignment signals. The pricing pays for itself when you consider the cost of retraining models that miss human nuance.",
+			image: "/generated/image-a-professional-headshot-of-a-black-woman.webp"
 		}
 	]}
 />
 
-<CallToAction />
+<CallToAction
+	title="AI that understands what it means to be human"
+	subtitle="Join the researchers building responsible AI"
+	description="Build emotionally intelligent systems grounded in real human values. Kokoro Research helps AI teams move beyond mechanical responses to meaningful alignment—proven to improve human-AI interaction metrics by 40%. Start integrating values into your training pipeline today."
+	imageSrc="/generated/image-a-researcher-sitting-at-a-desk-in-a-cozy.webp"
+	callsToAction={[
+		{
+			href: "/contact",
+			label: "Start a pilot program",
+			variant: "primary"
+		},
+		{
+			href: "/research",
+			label: "View research",
+			variant: "secondary"
+		}
+	]}
+/>

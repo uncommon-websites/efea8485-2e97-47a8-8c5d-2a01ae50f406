@@ -1,13 +1,13 @@
 <script lang="ts">
 	// Types
-	import Clock from "~icons/lucide/clock";
-	import Laptop from "~icons/lucide/laptop";
-	import Building from "~icons/lucide/building";
+	import IconClock from "~icons/lucide/clock";
+	import IconLaptop from "~icons/lucide/laptop";
+	import IconBuilding from "~icons/lucide/building";
 
 	type StatItem = {
 		value: string;
 		description: string;
-		icon: typeof Clock;
+		icon: typeof IconClock;
 	};
 
 	// Props
@@ -16,17 +16,17 @@
 			{
 				value: "3 mins",
 				description: "to set up your network",
-				icon: Clock
+				icon: IconClock
 			},
 			{
 				value: "2.5m",
 				description: "devices connected",
-				icon: Laptop
+				icon: IconLaptop
 			},
 			{
 				value: "10K+",
 				description: "companies running Tailscale",
-				icon: Building
+				icon: IconBuilding
 			}
 		],
 		class: classes = ""
