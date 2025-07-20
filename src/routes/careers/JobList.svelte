@@ -11,7 +11,7 @@
 <script lang="ts">
 	// Types
 
-	// Components
+	// Icons
 	import IconArrowUpRight from "~icons/lucide/arrow-up-right";
 
 	// Utils
@@ -57,7 +57,7 @@
 							<div
 								class="ml-auto grid size-6 h-full items-center self-stretch text-current opacity-20 group-hover:-translate-x-[var(--offset)] group-hover:opacity-50"
 							>
-								<IconArrowUpRight class="size-full" />
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-full"><path d="m7 7 10 10"/><path d="M7 17V7h10"/></svg>
 							</div>
 						</a>
 					</li>

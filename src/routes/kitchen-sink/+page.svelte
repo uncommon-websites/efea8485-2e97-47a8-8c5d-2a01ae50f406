@@ -45,7 +45,7 @@
 				class="bg-card border-border absolute top-12 right-0 w-80 space-y-4 rounded-lg border p-4 shadow-lg"
 			>
 				<div class="mb-4 flex items-center gap-2">
-					<IconPalette class="text-primary size-4" />
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-primary size-4"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></svg>
 					<h3 class="text-headline font-medium">Theme Controls</h3>
 				</div>
 
@@ -194,7 +194,6 @@
 				<Card
 					title="Icon + Portrait"
 					description="Icon overlay on portrait image."
-					icon={IconUsers}
 					imageSrc="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
 					imageAspect="9/16"
 				/>
@@ -373,7 +372,6 @@
 				{
 					title: "AI-powered insights",
 					description: "Get intelligent recommendations powered by machine learning algorithms.",
-					icon: IconZap,
 					imageSrc:
 						"https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
 				}
@@ -515,13 +513,11 @@
 				},
 				{
 					title: "User management",
-					description: "Role-based access control system.",
-					icon: IconUsers
+					description: "Role-based access control system."
 				},
 				{
 					title: "Machine learning",
 					description: "AI-powered recommendations and insights.",
-					icon: IconZap,
 					imageSrc:
 						"https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
 				},
