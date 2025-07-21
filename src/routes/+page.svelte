@@ -13,7 +13,7 @@
 <CenteredTextOnlyHero
 	title="Technology that feels human"
 	subtitle="We map emotional intelligence to help teams build systems that understand, adapt, and connect—more like people do."
-	imageSrc="/generated/image-a-group-of-diverse-people-in-an-open-off.webp"
+	imageSrc="/generated/image-a-serene-indoor-workspace-with-soft-text.webp"
 />
 <LogoScroller 
 	label="Trusted by leading AI research companies"

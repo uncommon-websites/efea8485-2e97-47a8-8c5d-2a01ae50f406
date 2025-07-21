@@ -66,5 +66,17 @@
   {
     "prompt": "A professional headshot of a Black woman who is an ML engineer, taken in a tech company office environment. She is in smart casual attire with an engaging smile. The background features a modern office with glass partitions and some greenery, subtly out of focus to emphasize her presence.",
     "filename": "/generated/image-a-professional-headshot-of-a-black-woman.webp"
+  },
+  {
+    "prompt": "A cozy indoor workspace with soft textures like wood and ceramics, bathed in natural ambient lighting. The setting conveys a sense of lived-in warmth and authenticity, with muted tones of soft blacks and warm grays, accented by deep teals. People are engaged in quiet, thoughtful conversation, their expressions reflecting introspection and connection. The mood is serene and present, with individuals showing empathy and curiosity through small gestures and eye contact. The environment feels intimate, with a focus on natural framing and depth of field to emphasize emotional expressions.",
+    "filename": "/generated/image-a-cozy-indoor-workspace-with-soft-textur.webp"
+  },
+  {
+    "prompt": "A group of people seated around a wooden table in a softly lit indoor workspace. They are engaged in a thoughtful discussion, with natural expressions and subtle gestures. The environment features soft textures such as wood and ceramics, with natural light streaming through a window. The color palette includes warm grays and soft blacks, with a touch of teal for accent. The mood is serene and introspective, focusing on the emotional connection between individuals.",
+    "filename": "/generated/image-a-group-of-people-seated-around-a-wooden.webp"
+  },
+  {
+    "prompt": "A serene indoor workspace with soft textures like wood and ceramics, bathed in natural ambient lighting reminiscent of golden hour. The environment is thoughtfully arranged with muted, desaturated tones, including warm grays and soft blacks, with occasional accents of teal. The scene captures an intimate moment of a person deep in thought, surrounded by paper and books, conveying emotional clarity and authenticity. The atmosphere is introspective, with a focus on human connection and quiet engagement.",
+    "filename": "/generated/image-a-serene-indoor-workspace-with-soft-text.webp"
   }
 ]

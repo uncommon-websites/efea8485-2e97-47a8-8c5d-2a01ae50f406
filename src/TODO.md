@@ -1,4 +1,4 @@
-# Task: Update Pricing Plans Section for Kokoro Research\n\n- [x] Examine current pricing page structure\n- [x] Examine pricing component structure\n- [x] Update pricing tiers to match Kokoro's target market\n- [x] Update features to reflect emotional intelligence mapping\n- [x] Ensure pricing makes sense for B2B AI research market\n- [x] Final design system compliance check - verified design system classes prioritized, NO shadows, NO custom CSS, NO arbitrary values used
+# Task: Change Hero Image to Light Pattern\n\n- [x] Examine current pricing page structure\n- [x] Examine pricing component structure\n- [x] Update pricing tiers to match Kokoro's target market\n- [x] Update features to reflect emotional intelligence mapping\n- [x] Ensure pricing makes sense for B2B AI research market\n- [x] Final design system compliance check - verified design system classes prioritized, NO shadows, NO custom CSS, NO arbitrary values used
 
 - [x] View current pricing page structure
 - [ ] Update brand variables for consistency
