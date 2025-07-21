@@ -9,10 +9,14 @@
 		layout = "vertical",
 		mode = "light",
 		logoUrls = [
-			"https://cdn.brandfetch.io/facebook.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7",
-			"https://cdn.brandfetch.io/amazon.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7",
-			"https://cdn.brandfetch.io/google.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7",
-			"https://cdn.brandfetch.io/apple.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
+			"https://cdn.brandfetch.io/openai.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7",
+			"https://cdn.brandfetch.io/anthropic.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7",
+			"https://cdn.brandfetch.io/mit.edu/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7",
+			"https://cdn.brandfetch.io/stanford.edu/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7",
+			"https://cdn.brandfetch.io/microsoft.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7",
+			"https://cdn.brandfetch.io/nvidia.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7",
+			"https://cdn.brandfetch.io/huggingface.co/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7",
+			"https://cdn.brandfetch.io/deepmind.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
 		],
 		...rest
 	}: {
